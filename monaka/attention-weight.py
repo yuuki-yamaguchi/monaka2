@@ -3,7 +3,7 @@ class AttentionWeight():
         self._check_attention_weight(attention_weight)
         self.set_attention_weight(attention_weight)
 
-    def get_attention_weight(self, attention_weight):
+    def get_attention_weight(self):
         return self.set_attention_weight
 
     def set_attention_weight(self, attention_weight):
